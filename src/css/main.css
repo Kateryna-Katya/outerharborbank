@@ -441,3 +441,35 @@ font-family: "DM Sans", sans-serif;
         display: none;
     }
 }
+/* Contact */
+.contact-section{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.contact-link{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.contact-section{
+    background-image: url("/img/contact/desk.png");
+}
+.contact-container{
+    gap: 32px;
+}
+}
