@@ -1,0 +1,82 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+
+.background {
+
+    text-align: left;
+}
+
+.privacy-title {
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-top: 48px;
+    margin-bottom: 56px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #444443;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: #444443;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+
+}
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.policy-span {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1440px) {
+    .policy-container {
+        padding-left: 223px;
+        padding-right: 223px;
+    }
+    .privacy-title {
+    font-size: 64px;
+    }
+}
