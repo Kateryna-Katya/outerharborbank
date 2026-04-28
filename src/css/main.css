@@ -85,3 +85,30 @@ background: linear-gradient(180deg, #d7bdf9 0%, #c495f5 100%);
     margin-top: 0;
   }
 }
+/* About the Game */
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+@media only screen and (min-width: 1440px) {
+.about-section {
+        background-image: url("/img/about/desk.png");
+    }
+.about-wrapper{
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 40px;
+}
+.about-wrapper p{
+width: 495px;
+text-align: left;
+}
+}
