@@ -17,3 +17,8 @@ h2{
     color: #444443;
     margin-bottom: 48px;
 }
+@media only screen and (min-width: 1440px) {
+  h2{
+    margin-bottom: 64px;
+  }
+}
