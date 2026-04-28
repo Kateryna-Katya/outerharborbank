@@ -16,10 +16,87 @@
     <script type="module" crossorigin src="/outerharborbank/index.js"></script>
     <link rel="modulepreload" crossorigin href="/outerharborbank/assets/vendor-D7M8BDcB.js">
     <link rel="stylesheet" crossorigin href="/outerharborbank/assets/vendor-Cq8LIkOh.css">
-    <link rel="stylesheet" crossorigin href="/outerharborbank/assets/styles-DeBA7OR0.css">
+    <link rel="stylesheet" crossorigin href="/outerharborbank/assets/styles-BlUPOSPR.css">
   </head>
   <body>
-    
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-logo" href="./#home">
+            <img src="data:image/png;base64,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" alt="logo" loading="lazy">
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" stroke="#D7BDF9" />
+    <path d="M5 7H19M5 17H19M5 12H19" stroke="#444443" stroke-linecap="round" />
+</svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#about">About the Game</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gameplay">Gameplay Mechanics</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#features">Key Features</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#gallery">Visual Gallery</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#reviews">Player Reviews</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#faq">FAQ</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#about">About the Game</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#gameplay">Gameplay Mechanics</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#features">Key Features</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#gallery">Visual Gallery</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#reviews">Player Reviews</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#faq">FAQ</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#contact">Contact</a>
+        </li>
+    </ul>
+    <ul class="header-policy-navigation">
+        <li class="header-policy-link">
+            <a class="header-policy-underline" href="privacy.html">Privacy Policy</a>
+        </li>
+        <li class="header-policy-link">
+            <a class="header-policy-underline" href="terms.html">Terms & Conditions</a>
+        </li>
+    </ul>
+    <img src="/outerharborbank/assets/brain-BomosYn_.png" alt="brain" loading="lazy">
+</div>
 
 
     <main>
@@ -38,7 +115,7 @@
         <a class="hero-link" href="https://play.google.com/store/apps/details?id=com.guesstheword.v1.wpg.game&hl=en&gl=us">
             <img src="/outerharborbank/assets/btn-BPNUtP-u.png" alt="google play" loading="lazy" />
         </a>
-        <img class="brain-img" src="/outerharborbank/assets/braine-BomosYn_.png" alt="brain" loading="lazy">
+        <img class="brain-img" src="/outerharborbank/assets/brain-BomosYn_.png" alt="brain" loading="lazy">
     </div>
     </div>
 </section>
